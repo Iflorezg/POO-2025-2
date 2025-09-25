@@ -62,25 +62,26 @@ class TrianguloRectangulo:
             print("Es un triángulo isósceles")
 
 
-# Clase principal (equivalente a EjercicioN24)
-if __name__ == "__main__":
-    figura1 = Circulo(2)
-    figura2 = Rectangulo(1, 2)
-    figura3 = Cuadrado(3)
-    figura4 = TrianguloRectangulo(3, 5)
+# Clase principal 
+class Ejercicio24:
+  if __name__ == "__main__":
+      figura1 = Circulo(2)
+      figura2 = Rectangulo(1, 2)
+      figura3 = Cuadrado(3)
+      figura4 = TrianguloRectangulo(3, 5)
 
-    print("El área del círculo es =", figura1.calcular_area())
-    print("El perímetro del círculo es =", figura1.calcular_perimetro())
-    print()
+      print("El área del círculo es =", figura1.calcular_area())
+      print("El perímetro del círculo es =", figura1.calcular_perimetro())
+      print()
 
-    print("El área del cuadrado es =", figura3.calcular_area())
-    print("El perímetro del cuadrado es =", figura3.calcular_perimetro())
-    print()
+      print("El área del cuadrado es =", figura3.calcular_area())
+      print("El perímetro del cuadrado es =", figura3.calcular_perimetro())
+      print()
 
-    print("El área del rectángulo es =", figura2.calcular_area())
-    print("El perímetro del rectángulo es =", figura2.calcular_perimetro())
-    print()
+      print("El área del rectángulo es =", figura2.calcular_area())
+      print("El perímetro del rectángulo es =", figura2.calcular_perimetro())
+      print()
 
-    print("El área del triángulo es =", figura4.calcular_area())
-    print("El perímetro del triángulo es =", figura4.calcular_perimetro())
-    figura4.determinar_tipo_triangulo()
+      print("El área del triángulo es =", figura4.calcular_area())
+      print("El perímetro del triángulo es =", figura4.calcular_perimetro())
+      figura4.determinar_tipo_triangulo()
